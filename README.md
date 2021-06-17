@@ -14,7 +14,7 @@ It's all about shifting letters in the Alphabet (in this case is ROT13 - 13 lett
 Project is created with:
 * Node.js: 14.16.0
 * Jest: 27.0.4
+* ESLint: 7.28.0
 * Parcel: 
-* ESLint: 
 ## Setup
 To run this project, install it locally using npm:
