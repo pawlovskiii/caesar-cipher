@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const caesar13 = require('./caesar13');
 
 test('should return the encrypted string shifted by 13 letters (lowerCase ONLY)', () => {
