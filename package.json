@@ -1,0 +1,12 @@
+{
+  "name": "szyfr_cezara",
+  "version": "1.0.0",
+  "description": "Implementation created with Node.js, Parcel (bundling tool), Jest (as testing framework) and ESLint (for improving syntax and enforce code style).\r During this project I also wanted to build up my skills around building good looking repository including all the necessary guidelines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
