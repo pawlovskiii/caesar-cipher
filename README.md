@@ -8,7 +8,7 @@ During this project I also wanted to build up my skills around building good loo
 * [Setup](#setup)
 ## General info 
 Caesar Cipher is simple and popular technique of data encryption.
-It's all about shifting letters in the Alphabet (in this case is ROT13 - 13 letters shift).
+It's all about shifting letters in the Alphabet (in this case it's ROT13 - 13 letters shift).
 
 ## Technologies
 Project is created with:
@@ -17,4 +17,18 @@ Project is created with:
 * ESLint: 7.28.0
 * Parcel: 
 ## Setup
-To run this project, install it locally using npm:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/pawlovskiii/caesar-cipher
+
+# Go into the repository
+$ cd caesar-cipher
+
+# Install dependencies
+$ npm install 
+
+# Run the app
+$ npm start
+```
