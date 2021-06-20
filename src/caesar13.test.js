@@ -4,7 +4,7 @@ const caesar13 = require('./caesar13');
 test('should throw an error if the input is the wrong type', () => {
 	expect(() => caesar13(123)).toThrow('Input must be a string and must not be empty.');
 	expect(() => caesar13([true, 234, 'a2d'])).toThrow('Input must be a string and must not be empty.');
-	expect(() => caesar13({1: 'Bit', 99: 'Fun'})).toThrow('Input must be a string and must not be empty.');
+	expect(() => caesar13({ 1: 'Bit', 99: 'Fun' })).toThrow('Input must be a string and must not be empty.');
 });
 
 test('should throw an error if called without an arg or if the input string is empty', () => {
@@ -39,12 +39,12 @@ test('should return the encrypted string shifted by 13 letters (upperCase + numb
 	expect(caesar13('18PUZZLE18')).toBe('18CHMMYR18');
 });
 
-test.skip('should return the encrypted string shifted by 13 letters (lowerCase + upperCase)', () => {
+test('should return the encrypted string shifted by 13 letters (lowerCase + upperCase)', () => {
 	expect(caesar13('aPPliCaTiON')).toBe('nCCyvPnGvBA');
 	expect(caesar13('ETHEreum')).toBe('RGURerhz');
 });
 
-test.skip('should return the encrypted string shifted by 13 letters (lowerCase + upperCase + numbers)', () => {
+test('should return the encrypted string shifted by 13 letters (lowerCase + upperCase + numbers)', () => {
 	expect(caesar13('FLY12 emiRAtes55')).toBe('SYL12 rzvENgrf55');
 	expect(caesar13('123Research 567 PLATFORM')).toBe('123Erfrnepu 567 CYNGSBEZ');
 });
