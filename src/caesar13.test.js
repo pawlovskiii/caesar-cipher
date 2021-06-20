@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const caesar13 = require('./caesar13');
 
 test('should throw an error if the input is the wrong type', () => {
