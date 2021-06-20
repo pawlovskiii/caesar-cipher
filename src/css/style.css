@@ -11,17 +11,19 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Styling added tags */
+/* POSITION FOR ALL THE ELEMENTS */
 .position-settings {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+/* INPUT MESSAGE */
 .message-place {
     top: 30%;
 }
 
+/* BUTTONS */
 .btn-encrypt {
     top: 40%;
 }
@@ -46,6 +48,7 @@ body {
     color: #000;
 }
 
+/* OUTPUT TEXT */
 .display-output-text  {
     top: 50%;
     font-weight: bold;

@@ -46,7 +46,11 @@ module.exports = caesar13;
 function showEncryptedMessage() {
 	const inputText = document.querySelector('.message-place').value;
 	const displayOutputText = document.querySelector('.display-output-text');
-	displayOutputText.textContent = caesar13(inputText);
+	if (inputText.match(/[a-zA-Z]/g)) {
+		displayOutputText.textContent = caesar13(inputText);
+	} else {
+		alert('Input must be a string and must not be empty.');
+	}
 }
 
 function resetDisplayedText() {
