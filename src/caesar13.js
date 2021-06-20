@@ -43,7 +43,6 @@ function caesar13(input) {
 module.exports = caesar13;
 
 // connecting to the HTML page
-
 function showEncryptedMessage() {
 	const inputText = document.querySelector('.message-place').value;
 	const displayOutputText = document.querySelector('.display-output-text');

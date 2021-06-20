@@ -8,6 +8,7 @@ body {
 	height: 100vh;
 	background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Styling added tags */
@@ -19,8 +20,6 @@ body {
 
 .message-place {
     top: 30%;
-
-
 }
 
 .btn-encrypt {
