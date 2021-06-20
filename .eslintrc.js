@@ -14,5 +14,7 @@ module.exports = {
 		'linebreak-style': ['error', 'windows'],
 		indent: ['error', 'tab'],
 		'no-tabs': ['error', { allowIndentationTabs: true }],
+		'no-alert': 'off',
+		'no-unused-vars': 'off',
 	},
 };

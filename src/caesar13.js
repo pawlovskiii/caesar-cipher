@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 const upperCaseAlphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const lowerCaseAlphabet = 'abcdefghijklmnopqrstuvwxyz';
 
@@ -47,6 +46,10 @@ module.exports = caesar13;
 function showEncryptedMessage() {
 	const inputText = document.querySelector('.message-place').value;
 	const displayOutputText = document.querySelector('.display-output-text');
-	console.log(inputText);
-	displayOutputText.textContent = caesar13(inputText);
+	if (inputText) {
+		console.log(inputText);
+		displayOutputText.textContent = caesar13(inputText);
+	}
+	alert('Input must be a string and must not be empty.');
+	displayOutputText.textContent = '';
 }
