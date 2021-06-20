@@ -27,7 +27,23 @@ body {
 }
 
 .btn-reset {
-    top: 43%;
+    top: 44%;
+}
+
+.btn-styling {
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: royalblue;
+    color: #fff;
+    transition: background-color .5s, box-shadow .5s;
+}
+
+.btn-styling:hover {
+    background-color: gold;
+    box-shadow: 0 0 5px gold;
+    color: #000;
 }
 
 .display-output-text  {
