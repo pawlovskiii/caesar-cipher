@@ -43,13 +43,15 @@ function caesar13(input) {
 module.exports = caesar13;
 
 // connecting to the HTML page
+
 function showEncryptedMessage() {
 	const inputText = document.querySelector('.message-place').value;
 	const displayOutputText = document.querySelector('.display-output-text');
-	if (inputText) {
-		console.log(inputText);
-		displayOutputText.textContent = caesar13(inputText);
-	}
-	alert('Input must be a string and must not be empty.');
-	displayOutputText.textContent = '';
+	displayOutputText.textContent = caesar13(inputText);
+}
+
+function resetDisplayedText() {
+	document.querySelector('.message-place').value = '';
+	document.querySelector('.display-output-text').value = '';
+	document.querySelector('.display-output-text').textContent = '';
 }

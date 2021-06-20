@@ -27,9 +27,13 @@ body {
     top: 40%;
 }
 
+.btn-reset {
+    top: 43%;
+}
+
 .display-output-text  {
-    top: 45%;
+    top: 50%;
     font-weight: bold;
-    color: aqua;
+    color: tomato;
     text-align: center;
 }
