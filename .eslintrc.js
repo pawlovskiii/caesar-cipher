@@ -16,5 +16,6 @@ module.exports = {
 		'no-tabs': ['error', { allowIndentationTabs: true }],
 		'no-alert': 'off',
 		'no-unused-vars': 'off',
+		'func-names': ['error', 'never'],
 	},
 };
