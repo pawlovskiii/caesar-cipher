@@ -1,5 +1,5 @@
 {
-  "name": "szyfr_cezara",
+  "name": "caesar_cipher",
   "version": "1.0.0",
   "description": "Implementation created with Node.js, Parcel (bundling tool), Jest (as testing framework) and ESLint (for improving syntax and enforce code style).\r During this project I also wanted to build up my skills around building good looking repository including all the necessary guidelines.",
   "main": "index.js",
