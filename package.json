@@ -4,7 +4,9 @@
   "description": "Implementation created with Node.js, Parcel (bundling tool), Jest (as testing framework) and ESLint (for improving syntax and enforce code style).\r During this project I also wanted to build up my skills around building good looking repository including all the necessary guidelines.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,7 @@
   "devDependencies": {
     "eslint": "^7.28.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.4"
+    "eslint-plugin-import": "^2.23.4",
+    "parcel-bundler": "^1.12.5"
   }
 }
