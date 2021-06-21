@@ -7,51 +7,51 @@
 body {
 	height: 100vh;
 	background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
-    font-size: 36px;
-    font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* POSITION FOR ALL THE ELEMENTS */
 .position-settings {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 /* INPUT MESSAGE */
 .message-place {
-    top: 30%;
+	top: 30%;
 }
 
 /* BUTTONS */
 .btn-encrypt {
-    top: 40%;
+	top: 40%;
 }
 
 .btn-reset {
-    top: 44%;
+	top: 44%;
 }
 
 .btn-styling {
-    cursor: pointer;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 6px;
-    background-color: royalblue;
-    color: #fff;
-    transition: background-color .5s, box-shadow .5s;
+	cursor: pointer;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 6px;
+	background-color: royalblue;
+	color: #fff;
+	transition: background-color 0.5s, box-shadow 0.5s;
 }
 
 .btn-styling:hover {
-    background-color: gold;
-    box-shadow: 0 0 5px gold;
-    color: #000;
+	background-color: gold;
+	box-shadow: 0 0 5px gold;
+	color: #000;
 }
 
 /* OUTPUT TEXT */
-.display-output-text  {
-    top: 50%;
-    font-weight: bold;
-    color: tomato;
-    text-align: center;
+.display-output-text {
+	top: 50%;
+	font-weight: bold;
+	color: tomato;
+	text-align: center;
 }
