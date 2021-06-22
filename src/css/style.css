@@ -86,7 +86,22 @@ body {
 	}
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
+	.btn-encrypt {
+		top: 48%;
+	}
+
+	.btn-reset {
+		top: 54%;
+	}
+
+	.display-output-text {
+		top: 63%;
+		font-size: 33px;
+	}
+}
+
+@media (min-width: 1800px) {
 	.btn-encrypt {
 		top: 42%;
 	}
