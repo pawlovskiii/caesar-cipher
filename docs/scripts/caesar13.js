@@ -39,4 +39,5 @@ function caesar13(input) {
 	return shiftedOutputArray.join('');
 }
 
-module.exports = caesar13;
+// module.exports = caesar13;
+export default caesar13;

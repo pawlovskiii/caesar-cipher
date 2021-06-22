@@ -1,4 +1,5 @@
-const caesar13 = require('./caesar13');
+// const caesar13 = require('./caesar13');
+import caesar13 from './caesar13';
 
 const showEncryptedMessage = () => {
 	const inputText = document.querySelector('.message-place').value;
