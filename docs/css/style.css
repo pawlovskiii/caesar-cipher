@@ -23,7 +23,6 @@ body {
 	top: 30%;
 }
 
-/* BUTTONS */
 .btn-encrypt {
 	top: 40%;
 }
@@ -54,4 +53,50 @@ body {
 	font-weight: bold;
 	color: tomato;
 	text-align: center;
+}
+
+/* RWD */
+@media (min-width: 250px) {
+	.btn-encrypt {
+		top: 47%;
+	}
+
+	.btn-reset {
+		top: 53%;
+	}
+
+	.display-output-text {
+		top: 75%;
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 600px) {
+	.btn-encrypt {
+		top: 41%;
+	}
+
+	.btn-reset {
+		top: 45%;
+	}
+
+	.display-output-text {
+		top: 58%;
+		font-size: 30px;
+	}
+}
+
+@media (min-width: 800px) {
+	.btn-encrypt {
+		top: 42%;
+	}
+
+	.btn-reset {
+		top: 46%;
+	}
+
+	.display-output-text {
+		top: 58%;
+		font-size: 33px;
+	}
 }
