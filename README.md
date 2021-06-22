@@ -2,6 +2,9 @@
 Implementation created with Node.js, Parcel (bundling tool), Jest (as testing framework) and ESLint (for improving syntax and enforce code style).
 During this project I also wanted to build up my skills around building good looking repository including all the necessary guidelines.
 
+## Github Pages
+https://pawlovskiii.github.io/caesar-cipher/
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
