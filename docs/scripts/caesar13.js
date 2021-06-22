@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 const upperCaseAlphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const lowerCaseAlphabet = 'abcdefghijklmnopqrstuvwxyz';
 
@@ -40,4 +41,4 @@ function caesar13(input) {
 }
 
 // module.exports = caesar13;
-export default caesar13;
+export { caesar13 };
