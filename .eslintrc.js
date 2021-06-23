@@ -17,5 +17,7 @@ module.exports = {
 		'no-alert': 'off',
 		'no-unused-vars': 'off',
 		'func-names': ['error', 'never'],
+		'import/prefer-default-export': 'off',
+		'import/extensions': 'off',
 	},
 };
