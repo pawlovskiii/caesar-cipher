@@ -16,17 +16,17 @@ https://pawlovskiii.github.io/caesar-cipher/
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-## General info 
+### General info 
 Caesar Cipher is simple and popular technique of data encryption.
 It's all about shifting letters in the Alphabet (in this case it's ROT13 - 13 letters shift).
 
-## Technologies
+### Technologies
 Project is created with:
 * Node.js: 14.16.0
 * Jest: 27.0.4
 * ESLint: 7.28.0
 * Parcel: 1.12.5
-## Setup
+### Setup
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
