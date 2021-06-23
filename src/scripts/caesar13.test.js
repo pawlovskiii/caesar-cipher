@@ -1,4 +1,4 @@
-const caesar13 = require('./caesar13');
+import { caesar13 } from './caesar13.js';
 
 test('should throw an error if the input is the wrong type', () => {
 	expect(() => caesar13(123)).toThrow(

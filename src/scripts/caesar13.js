@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 const upperCaseAlphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const lowerCaseAlphabet = 'abcdefghijklmnopqrstuvwxyz';
 
@@ -39,4 +40,4 @@ function caesar13(input) {
 	return shiftedOutputArray.join('');
 }
 
-module.exports = caesar13;
+export { caesar13 };
