@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "jest",
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel docs/index.html",
+    "build": "parcel build docs/index.html"
   },
   "keywords": [],
   "author": "",
