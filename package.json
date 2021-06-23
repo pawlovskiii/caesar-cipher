@@ -8,6 +8,11 @@
     "start": "parcel docs/index.html",
     "build": "parcel build docs/index.html"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,6 +20,8 @@
     "jest": "^27.0.4"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.14.7",
+    "babel-jest": "^27.0.5",
     "eslint": "^7.28.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.4",
