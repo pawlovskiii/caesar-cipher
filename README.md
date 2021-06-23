@@ -1,6 +1,13 @@
-# Caesar Cipher ROT13 
+![alt text](https://miro.medium.com/max/2240/1*Q-Kh2aE-BomHiU6L9d8EDQ.jpeg)
+<h1 align="center">
+    Caesar Cipher ROT13 
+</h1
 Implementation created with Node.js, Parcel (bundling tool), Jest (as testing framework) and ESLint (for improving syntax and enforce code style).
 During this project I also wanted to build up my skills around building good looking repository including all the necessary guidelines.
+<p>
+    Implementation created with Node.js, Parcel (bundling tool), Jest (as testing framework) and ESLint (for improving syntax and enforce code style).
+    During this project I also wanted to upgrade up my skills around building good looking repository including all the necessary guidelines.
+</p>
 
 ## Github Pages
 https://pawlovskiii.github.io/caesar-cipher/
