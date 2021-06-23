@@ -51,67 +51,79 @@ body {
 .display-output-text {
 	top: 50%;
 	font-weight: bold;
-	color: tomato;
+	color: white;
+
 	text-align: center;
+}
+
+.output-container {
+	background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+
+	font-weight: bold;
+	height: 30vh;
+	width: 100vw;
+	overflow: hidden;
+	text-overflow: ellipsis; 
 }
 
 /* RWD */
 @media (min-width: 250px) {
+	.message-place {
+		top: 25%;
+	}
+
 	.btn-encrypt {
-		top: 47%;
+		top: 44%;
 	}
 
 	.btn-reset {
-		top: 53%;
+		top: 51%;
 	}
 
 	.display-output-text {
-		top: 75%;
+		top: 50%;
 		font-size: 20px;
 	}
-}
 
-@media (min-width: 600px) {
-	.btn-encrypt {
-		top: 41%;
-	}
-
-	.btn-reset {
-		top: 45%;
-	}
-
-	.display-output-text {
-		top: 58%;
-		font-size: 30px;
+	.output-container {
+		top: 73%;
 	}
 }
 
 @media (min-width: 750px) {
 	.btn-encrypt {
-		top: 48%;
+		top: 42%;
 	}
 
 	.btn-reset {
-		top: 54%;
+		top: 47%;
 	}
 
 	.display-output-text {
-		top: 63%;
-		font-size: 33px;
+		top: 50%;
+		font-size: 27px;
+	}
+
+	.output-container {
+		top: 72%;
 	}
 }
 
 @media (min-width: 1800px) {
 	.btn-encrypt {
-		top: 42%;
+		top: 38%;
 	}
 
 	.btn-reset {
-		top: 46%;
+		top: 42%;
 	}
 
 	.display-output-text {
-		top: 58%;
+		top: 50%;
 		font-size: 33px;
+	}
+
+	.output-container {
+		top: 72%;
 	}
 }
