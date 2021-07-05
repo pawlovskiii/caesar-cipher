@@ -4,7 +4,7 @@
   "description": "Implementation created with Node.js, Parcel (bundling tool), Jest (as testing framework) and ESLint (for improving syntax and enforce code style).\r During this project I also wanted to build up my skills around building good looking repository including all the necessary guidelines.",
   "main": "main.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll --verbose",
     "start": "parcel docs/index.html",
     "build": "parcel build docs/index.html"
   },
@@ -22,6 +22,7 @@
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
+    "@types/jest": "^26.0.23",
     "babel-jest": "^27.0.5",
     "eslint": "^7.28.0",
     "eslint-config-airbnb-base": "^14.2.1",
