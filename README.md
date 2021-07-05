@@ -2,6 +2,8 @@
 <h1 align="center">
     Caesar Cipher ROT13 
 </h1
+<p></p>
+
 ## Github Pages
 https://pawlovskiii.github.io/caesar-cipher/
 
@@ -9,11 +11,12 @@ https://pawlovskiii.github.io/caesar-cipher/
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+
 ### General info 
 My implementation of caesar cipher (ROT13). It's popular technique of data encryption. It's all about shifting letters in the alphabet (in this case, it's ROT13 - 13 letters shift).
 
 ### Technologies
-Implementation created with Parcel (as bundling tool), Jest (as testing framework), babel-jest (to enable the use of ES6 Modules with Jest framework) and ESLint (for improving syntax and enforce code style). During this project I also wanted to deploy it into the web, by using Github Pages.
+Implementation created with Parcel (as bundling tool), Jest (as testing framework), babel-jest (to enable the use of ES6 Modules with Jest framework) and ESLint (for improving syntax and enforce code style). During this project I also wanted to deploy it specifically on the Github Pages, to keep everything in one place and get to know this environment.
 Name  | Versions
 --- | --- 
 Node.js  | 16.4.0
@@ -36,5 +39,6 @@ $ npm start
 # Run the tests
 $ npm test
 ```
+
 
 
