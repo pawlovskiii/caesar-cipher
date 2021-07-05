@@ -1,7 +1,7 @@
 const alphabet = 'abcdefghijklmnopqrstuvwxyz';
 
 const caesar13 = (input) => {
-	if (typeof input !== 'string' || input === '') throw Error('Input must be a string and must not be empty.');
+	if (typeof input !== 'string' || input === '') throw Error('Invalid input.');
 	const ROTATION = 13;
 
 	const encryptedResult = [...input].map((item) => {
