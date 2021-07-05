@@ -23,7 +23,7 @@ It's all about shifting letters in the Alphabet (in this case it's ROT13 - 13 le
 ### Technologies
 Name  | Versions
 --- | --- 
-Node.js  | 14.16.0
+Node.js  | 16.4.0
 Jest | 27.0.4
 ESLint | 7.28.0 
 Parcel | 1.12.5
