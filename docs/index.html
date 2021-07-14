@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./css/style.css" />
 		<title>Caesar's Cipher</title>
-		<link rel="shortcut icon" type="image" href="./img/icon.png">
+		<link rel="shortcut icon" type="image" href="./img/icon.png" />
 
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
@@ -20,13 +20,11 @@
 				<h1>Caesar's Cipher</h1>
 			</section>
 			<section>
-
-				<textarea
-					name=""
-					class="message-place position-settings"
-					cols="30"
-					rows="3"
-				></textarea>
+				<input
+					type="text"
+					placeholder="Type something here..."
+					class="input-msg message-place position-settings"
+				/>
 
 				<input
 					type="button"
@@ -34,8 +32,6 @@
 					value="Encrypt message"
 					id="btn-encrypt-script"
 				/>
-
-				
 
 				<input
 					type="button"
@@ -49,6 +45,10 @@
 				</div>
 			</section>
 		</main>
+
+		<footer>
+			<p>&copy; Copyright 2021 by Jakub Pawłowski</p>
+		</footer>
 
 		<script type="module" src="./scripts/main.js"></script>
 	</body>
