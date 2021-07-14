@@ -26,22 +26,6 @@ h1 {
 }
 
 /* INPUT MESSAGE */
-.input-msg {
-	font-size: 20px;
-}
-
-.message-place {
-	top: 30%;
-}
-
-.btn-encrypt {
-	top: 40%;
-}
-
-.btn-reset {
-	top: 44%;
-}
-
 .btn-styling {
 	cursor: pointer;
 	border: none;
@@ -57,6 +41,24 @@ h1 {
 	box-shadow: 0 0 5px gold;
 	color: #000;
 }
+
+.input-msg {
+	font-size: 20px;
+}
+
+.message-place {
+	top: 30%;
+}
+
+.btn-encrypt {
+	top: 40%;
+	padding: 10px 15px;
+}
+
+.btn-reset {
+	top: 44%;
+}
+
 
 /* OUTPUT TEXT */
 .display-output-text {
