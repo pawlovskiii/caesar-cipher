@@ -2,11 +2,12 @@ import { caesar13 } from './caesar13.js';
 
 const showEncryptedMessage = () => {
 	const inputText = document.querySelector('.message-place').value;
+	const key = document.querySelector('.key-holder').value;
 	const displayOutputText = document.querySelector('.display-output-text');
 	if (inputText.match(/[a-zA-Z]/g)) {
-		displayOutputText.textContent = caesar13(inputText);
+		displayOutputText.textContent = caesar13(inputText, Number(key));
 	} else {
-		alert('Input must be a string and must not be empty.');
+		displayOutputText.textContent = 'Invalid input.';
 	}
 };
 
@@ -17,9 +18,13 @@ const resetDisplayedText = () => {
 };
 
 window.addEventListener('load', function () {
-	this.document.querySelector('#btn-encrypt-script').addEventListener('click', showEncryptedMessage);
+	this.document
+		.querySelector('#btn-encrypt-script')
+		.addEventListener('click', showEncryptedMessage);
 });
 
 window.addEventListener('load', function () {
-	this.document.querySelector('#btn-reset-script').addEventListener('click', resetDisplayedText);
+	this.document
+		.querySelector('#btn-reset-script')
+		.addEventListener('click', resetDisplayedText);
 });
