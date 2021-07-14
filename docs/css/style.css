@@ -75,8 +75,7 @@ h1 {
 	font-weight: bold;
 	height: 15vh;
 	width: 100vw;
-	overflow: hidden;
-	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 footer p {
