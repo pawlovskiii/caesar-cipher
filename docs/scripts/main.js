@@ -15,6 +15,7 @@ const resetDisplayedText = () => {
 	document.querySelector('.message-place').value = '';
 	document.querySelector('.display-output-text').value = '';
 	document.querySelector('.display-output-text').textContent = '';
+	document.querySelector('.key-holder').value = 0;
 };
 
 window.addEventListener('load', function () {
