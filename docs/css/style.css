@@ -11,6 +11,17 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+	color: crimson;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 15px;
+}
+
+textarea {
+	font-size: 17px;
+}
+
 /* POSITION FOR ALL THE ELEMENTS */
 .position-settings {
 	position: absolute;
@@ -69,15 +80,15 @@ body {
 /* RWD */
 @media (min-width: 250px) {
 	.message-place {
-		top: 25%;
+		top: 30%;
 	}
 
 	.btn-encrypt {
-		top: 44%;
+		top: 50%;
 	}
 
 	.btn-reset {
-		top: 51%;
+		top: 63%;
 	}
 
 	.display-output-text {
@@ -86,7 +97,7 @@ body {
 	}
 
 	.output-container {
-		top: 73%;
+		top: 85%;
 	}
 }
 
