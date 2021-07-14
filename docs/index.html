@@ -20,25 +20,34 @@
 				<h1>Caesar's Cipher</h1>
 			</section>
 			<section>
-				<input
-					type="text"
-					placeholder="Type something here..."
-					class="input-msg message-place position-settings"
-				/>
+				<div>
+					<input
+						type="text"
+						placeholder="Type something here..."
+						class="input-msg message-place position-settings"
+					/>
+				</div>
 
-				<input
-					type="button"
-					class="btn-encrypt position-settings btn-styling"
-					value="Encrypt message"
-					id="btn-encrypt-script"
-				/>
+				<div>
+					<p class="shift-sign">Shift by</p>
+					<input type="number" min="0" max="100" placeholder=0 class="key-holder">
+				</div>
 
-				<input
-					type="button"
-					class="btn-reset position-settings btn-styling"
-					value="Reset"
-					id="btn-reset-script"
-				/>
+				<div>
+					<input
+						type="button"
+						class="btn-encrypt position-settings btn-styling"
+						value="Encrypt message"
+						id="btn-encrypt-script"
+					/>
+
+					<input
+						type="button"
+						class="btn-reset position-settings btn-styling"
+						value="Reset"
+						id="btn-reset-script"
+					/>
+				</div>
 
 				<div class="output-container position-settings">
 					<p class="display-output-text position-settings"></p>
