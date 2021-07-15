@@ -24,8 +24,8 @@ window.addEventListener('load', function () {
 		.addEventListener('click', showEncryptedMessage);
 });
 
-window.addEventListener('load', function () {
-	this.document
-		.querySelector('#btn-reset-script')
-		.addEventListener('click', resetDisplayedText);
-});
+// window.addEventListener('load', function () {
+// 	this.document
+// 		.querySelector('#btn-reset-script')
+// 		.addEventListener('click', resetDisplayedText);
+// });
