@@ -14,17 +14,17 @@ body {
 /* HEADER */
 
 h1 {
-	color: crimson;
-	text-align: center;
-	font-size: 35px;
 	margin-top: 15px;
+	font-size: 35px;
+	text-align: center;
+	color: crimson;
 }
 
 .caesar-img {
 	position: absolute;
-	transform: translate(-50%, -50%);
 	left: 50%;
 	top: 30%;
+	transform: translate(-50%, -50%);
 	width: 100vw;
 }
 
@@ -43,18 +43,18 @@ h1 {
 
 /* INPUT MESSAGE */
 .btn-styling {
-	cursor: pointer;
-	border: none;
 	padding: 5px 10px;
-	border-radius: 6px;
 	background-color: royalblue;
 	color: #fff;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
 	transition: background-color 0.5s, box-shadow 0.5s;
 }
 
 .btn-styling:hover {
-	background-color: gold;
 	box-shadow: 0 0 5px gold;
+	background-color: gold;
 	color: #000;
 }
 
@@ -77,18 +77,18 @@ h1 {
 /* OUTPUT TEXT */
 .display-output-text {
 	top: 50%;
-	font-weight: bold;
-	color: white;
-
+	
 	text-align: center;
+	color: white;
+	font-weight: bold;
 }
 
 .output-container {
-	background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
-
-	font-weight: bold;
 	height: 15vh;
 	width: 100vw;
+	
+	background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+	font-weight: bold;
 	white-space: nowrap;
 }
 
@@ -96,30 +96,30 @@ h1 {
 /* Shift section */
 .shift-sign {
 	position: absolute;
-	transform: translate((-50%, -50%));
 	top: 65%;
 	left: 30%;
+	transform: translate((-50%, -50%));
 	font-size: 20px;
-	color: #fff;
 	font-weight: bold;
+	color: #fff;
 }
 
 .key-holder {
 	position: absolute;
-	transform: translate((-50%, -50%));
 	top: 65%;
 	left: 57%;
-	font-size: 16px;
+	transform: translate((-50%, -50%));
 	width: 10vw;
+	font-size: 16px;
 }
 
 /* FOOTER */
 .footer {
 	position: absolute;
+	top: 95%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 15px;
-	top: 95%;
 	color: #fff;
 	font-weight: bold;
 
