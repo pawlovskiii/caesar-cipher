@@ -123,16 +123,24 @@ body {
 }
 
 /* FOOTER */
-.footer {
+footer {
 	position: absolute;
-	top: 95%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 15px;
-	color: #fff;
-	font-weight: bold;
+	top: 93%;
+	left: 7%;
+	text-align: center;
+	color: #ddd;
+	font-size: 20px;
+}
 
-	white-space: nowrap;
+.icon-box a {
+	font-size: 30px;
+	margin: 0 5px;
+	color: #ddd;
+	transition: color 0.3s;
+}
+
+.icon-box a:hover {
+	color: crimson;
 }
 
 /* RWD */
