@@ -12,20 +12,33 @@ body {
 }
 
 /* HEADER */
+.header-img {
+	position: relative;
+	width: 100vw;
+	height: 50vh;
+	background-image: url('../img/caesar.jpg');
+	background-size: cover;
+}
 
-h1 {
-	margin-top: 15px;
+.header-text h1 {
+	margin-top: 10px;
 	font-size: 35px;
 	text-align: center;
 	color: crimson;
 }
 
-.caesar-img {
+.header-text p {
 	position: absolute;
-	left: 50%;
-	top: 30%;
-	transform: translate(-50%, -50%);
-	width: 100vw;
+	top: 22%;
+	left: 7%;
+
+	inline-size: 35vh;
+	overflow-wrap: break-word;
+
+	font-size: 13px;
+	color: #fff;
+
+	/* background-color: #fff; */
 }
 
 /* TESTING */
@@ -71,13 +84,10 @@ h1 {
 	top: 50%;
 }
 
-
-
-
 /* OUTPUT TEXT */
 .display-output-text {
 	top: 50%;
-	
+
 	text-align: center;
 	color: white;
 	font-weight: bold;
@@ -86,12 +96,11 @@ h1 {
 .output-container {
 	height: 15vh;
 	width: 100vw;
-	
+
 	background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
 	font-weight: bold;
 	white-space: nowrap;
 }
-
 
 /* Shift section */
 .shift-sign {
@@ -125,7 +134,6 @@ h1 {
 
 	white-space: nowrap;
 }
-
 
 /* RWD */
 @media (min-width: 250px) {
