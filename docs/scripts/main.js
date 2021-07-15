@@ -20,7 +20,7 @@ const resetDisplayedText = () => {
 
 window.addEventListener('load', function () {
 	this.document
-		.querySelector('#btn-encrypt-script')
+		.querySelector('#btn-encrypt')
 		.addEventListener('click', showEncryptedMessage);
 });
 
