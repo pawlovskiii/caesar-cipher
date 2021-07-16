@@ -13,7 +13,7 @@ https://pawlovskiii.github.io/caesar-cipher/
 * [Setup](#setup)
 
 ### General info 
-My implementation of famous Caesar cipher. It's a popular technique of data encryption. It's all about shifting letters in the alphabet (in this case, with optional n-letter shift).
+My implementation of Caesar cipher. It's a popular technique of data encryption. It's all about shifting letters in the alphabet (in this case, with optional n-letter shift).
 
 ### Technologies
 Implementation created with Parcel (as bundling tool), Jest (as testing framework), babel-jest (to enable the use of ES6 Modules with Jest framework) and ESLint (for improving syntax and enforce code style). During this project I also wanted to deploy it specifically on the Github Pages, to keep everything in one place and get to know this environment.
