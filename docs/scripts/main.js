@@ -5,11 +5,14 @@ const showEncryptedMessage = () => {
 	const key = document.querySelector('.key-holder').value;
 	const displayOutputText = document.querySelector('.display-output-text');
 	if (inputText.match(/[a-zA-Z]/g)) {
-		displayOutputText.textContent = caesar13(inputText, Number(key));
+		displayOutputText.innerText = caesar13(inputText, Number(key));
 	} else {
-		displayOutputText.textContent = 'Invalid input.';
+		displayOutputText.innerText = 'Invalid input.';
 	}
 };
+
+const btnEncrypt = document.querySelector('#btn-encrypt');
+btnEncrypt.addEventListener('click', showEncryptedMessage);
 
 const resetDisplayedText = () => {
 	document.querySelector('.message-place').value = '';
@@ -17,15 +20,3 @@ const resetDisplayedText = () => {
 	document.querySelector('.display-output-text').textContent = '';
 	document.querySelector('.key-holder').value = 0;
 };
-
-window.addEventListener('load', function () {
-	this.document
-		.querySelector('#btn-encrypt')
-		.addEventListener('click', showEncryptedMessage);
-});
-
-// window.addEventListener('load', function () {
-// 	this.document
-// 		.querySelector('#btn-reset-script')
-// 		.addEventListener('click', resetDisplayedText);
-// });
