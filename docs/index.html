@@ -19,64 +19,62 @@
 		/>
 	</head>
 	<body>
-		<header class="header">
-			<div class="hero-bg">
-				<div class="hero-text">
-					<div class="one">
-						<h1><span>caesar's</span> cipher</h1>
+		<div class="body-bg">
+			<div class="opacity-body-bg">
+				<header>
+					<div class="hero-text">
+						<div class="flex">
+							<h1><span>caesar's</span> cipher</h1>
+						</div>
+						<div class="flex">
+							<p>Encrypt your message by shifting letters in the alphabet.</p>
+						</div>
 					</div>
-					<div class="two">
-						<p>Encrypt your message by shifting letters in the alphabet.</p>
+				</header>
+				
+				<main>
+					<div class="flex">
+						<input
+							type="text"
+							placeholder="Type message here..."
+							class="input-message-text"
+						/>
 					</div>
-				</div>
+					<div class="flex">
+						<p class="shift-text-p">Shift by</p>
+						<input
+							type="number"
+							min="0"
+							max="100"
+							placeholder="0"
+							class="key-holder-input"
+						/>
+					</div>
+					<div class="flex">
+						<input
+							type="button"
+							class="btn-encrypt btn-styling"
+							value="Encrypt"
+							id="btn-encrypt"
+						/>
+					</div>
+					<div class="flex output-container">
+						<p class="display-output-text"></p>
+					</div>
+				</main>
+
+				<footer class="footer">
+					<p>
+						&copy; 2021 Jakub Pawłowski
+						<span class="icon-box">
+							<a href="https://github.com/pawlovskiii/caesar-cipher"
+								><i class="fab fa-github"></i
+							></a>
+						</span>
+					</p>
+				</footer>
 			</div>
-		</header>
-
-		<!-- <main>
-			<section>
-				<div>
-					<input
-						type="text"
-						placeholder="Type message here..."
-						class="input-msg message-place"
-					/>
-				</div>
-
-				<div>
-					<p class="shift-sign">Shift by</p>
-					<input
-						type="number"
-						min="0"
-						max="100"
-						placeholder="0"
-						class="key-holder"
-					/>
-				</div>
-
-				<input
-					type="button"
-					class="btn-encrypt btn-styling"
-					value="Encrypt"
-					id="btn-encrypt"
-				/>
-
-				<div class="output-container">
-					<p class="display-output-text"></p>
-				</div>
-			</section>
-		</main> -->
-
-		<footer class="footer">
-			<p>
-				&copy; 2021 Jakub Pawłowski
-				<span class="icon-box">
-					<a href="https://github.com/pawlovskiii/caesar-cipher"
-						><i class="fab fa-github"></i
-					></a>
-				</span>
-			</p>
-		</footer>
-
+		</div>
 		<script type="module" src="./scripts/main.js"></script>
 	</body>
 </html>
