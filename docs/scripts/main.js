@@ -1,18 +1,21 @@
 import { caesar13 } from './caesar13.js';
 
-const displayOutputText = document.querySelector('.display-output-text');
-const btnEncrypt = document.querySelector('#btn-encrypt');
+const displayEncryptedText = document.querySelector('.display-output-text');
+const inputTextMessage = document.querySelector('.input-message-text');
 const btnReset = document.querySelector('#btn-reset');
 
 function showEncryptedMessage() {
-	const inputTextMessage = document.querySelector('.input-message-text').value;
+	const inputMessageValue = document.querySelector('.input-message-text').value;
 	const keyShift = document.querySelector('.key-holder-input').value;
-	if (inputTextMessage.match(/[a-zA-Z]/g)) {
-		displayOutputText.innerText = caesar13(inputTextMessage, Number(keyShift));
+	if (inputMessageValue.match(/[a-zA-Z]/g)) {
+		displayEncryptedText.innerText = caesar13(
+			inputMessageValue,
+			Number(keyShift)
+		);
 	} else {
-		displayOutputText.innerText = 'Invalid input.';
+		displayEncryptedText.innerText = 'Invalid input.';
 	}
-};
+}
 
 const resetDisplayedText = () => {
 	document.querySelector('.input-message-text').value = '';
@@ -21,5 +24,5 @@ const resetDisplayedText = () => {
 	document.querySelector('.key-holder-input').value = 0;
 };
 
-btnEncrypt.addEventListener('click', showEncryptedMessage);
+inputTextMessage.addEventListener('keyup', showEncryptedMessage);
 btnReset.addEventListener('click', resetDisplayedText);
