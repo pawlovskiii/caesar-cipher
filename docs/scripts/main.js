@@ -10,7 +10,7 @@ function showEncryptedMessage() {
 	if (inputMessageValue.match(/[a-zA-Z]/g)) {
 		displayEncryptedText.innerText = caesar13(
 			inputMessageValue,
-			Number(keyShift)
+			Number(keyShift),
 		);
 	} else {
 		displayEncryptedText.innerText = 'Invalid input.';
